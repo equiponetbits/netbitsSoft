@@ -1,0 +1,39 @@
+﻿
+@font-face {
+	font-family: 'ITC-Medium';
+	src: url('../Fuentes/ITC-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ITC-CondBook';
+	src: url('../Fuentes/ITC-Condensed-Book.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+      font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../../fonts/Lato-Light.ttf') format('truetype');
+      font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../../fonts/Lato-Bold.ttf') format('truetype');
+     font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('../../fonts/Lato-Medium.ttf') format('truetype');
+     font-weight: normal;
+	font-style: normal;
+}

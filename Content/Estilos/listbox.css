@@ -1,0 +1,41 @@
+.lbjs {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #a3b3ca;
+    color: #5B6165;
+    font-family: 'Roboto-regular';
+    font-size: 12px;
+    height: 140px;
+    line-height: 15px;
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+    width: 150px;
+}
+
+.lbjs .lbjs-list {
+    margin: 0px;
+    overflow: auto;
+}
+
+.lbjs .lbjs-list .lbjs-item {
+    margin: 0px;
+    padding: 5px;
+}
+
+.lbjs .lbjs-list .lbjs-item:not([disabled]) {
+    cursor: pointer;
+}
+
+.lbjs .lbjs-list .lbjs-item:hover:not([disabled]) {
+    background: #EEF1F5;
+    color:#5B6165;
+}
+
+.lbjs .lbjs-list .lbjs-item[selected] {
+    background: #EEF1F5;
+    color:#5B6165;
+}
+
+.lbjs .lbjs-list .lbjs-item[disabled] {
+    color: #BFC3C6;
+    cursor: default;
+}

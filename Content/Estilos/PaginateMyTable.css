@@ -1,0 +1,22 @@
+div.pager {
+    text-align: center;
+    background-color:#BFC3C6;
+}
+
+div.pager span {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;   
+    margin-right: 0.5em;
+}
+
+div.pager span.number {
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'opensans-regular';
+}
+
+div.pager span.active {
+    text-decoration:underline;
+    color:#fff;
+}

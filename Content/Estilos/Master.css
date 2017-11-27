@@ -1,0 +1,246 @@
+﻿#master{
+    width:1400px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:1050px;
+    background-color:#e2e3e4;
+}
+
+#cabecera{
+    background-color:#ffffff;
+    height:55px;
+    box-shadow: 0px 0px 4px 1px #dbdbdb !important;
+}
+
+#menu img.logo{
+    margin-top:15px;
+    margin-left:50px;
+}
+
+#datosUsuario{
+    display:inline-block;
+    margin-right: 15px;
+    margin-top: 18px;
+}
+#CerrarSesion{
+    display:inline-block;
+    margin-right: 15px;
+    margin-top: 18px;
+    float:right;
+}
+
+
+#nombreUsuario{
+    color:#1A417C;
+    font-family:'Roboto-medium';
+    font-size:14px;  
+}
+
+#menu {
+    float: left;
+    width: 219px;
+    border-right: 1px solid #333333;
+    background-color:#1d4189;
+    margin-right: 18px;
+    height: 995px;
+}
+
+    #menu ul {
+        /*background-color: #fff;*/
+        list-style: none outside none;
+        margin-top: 0;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    #menu li a.itemPadre  {
+        background-color:  #1d4189;
+        /*border-bottom: 1px solid #333333;*/
+        /*border-top:1px solid #808080;*/
+        color: #FFF;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: "Roboto-regular";
+        margin-left: 0;
+        width: 219px;
+        /*text-transform:uppercase;*/
+        padding:0 10px 0 20px;
+        display: table-cell;
+        vertical-align:middle;
+        height:55px;
+        
+    }
+
+        #menu li a.itemPadre:hover {
+            background-color: #0a265e;
+            color: #FFF;
+            font-family: "Roboto-bold";
+
+        }
+
+        
+
+
+
+.Menuplus {
+    display: inline-block!important;
+    width: 8px!important;
+    height: 8px!important;
+    margin-left: 65px!important;
+    vertical-align: middle!important;
+      background-image: url('../Slices/mas.png');
+      padding :0px!important
+  
+   
+}
+
+    #menu li a.nohover:hover {
+        background-color: #1d4189;
+        cursor:default;
+    }
+
+    #menu li a.itemPadre.active {
+        background-color: #0a265e;
+        color: #FFF;
+        font-family: "Roboto-bold";
+    }
+
+#menu li a.itemPadre.active .Menuplus {
+    background-color: #0a265e;
+    color: #FFF;
+    font-family: "Roboto-bold";
+    background-image: url('../Slices/menos.png');
+}
+
+    #menu li ul {
+        display:none;
+    }
+
+    #menu li ul li:last-child a {
+        border-bottom: 0 none;
+    }
+
+    #menu li:last-child ul li:last-child a {
+        /*border-bottom: 1px solid #333333;*/
+    }
+
+    #menu li.hijo{
+        /*padding-left: 20px;
+        background-color:#e2231a;*/
+    }
+
+    #menu li a {
+        background-color: #143576;
+        /*border-bottom: 1px solid #333333;*/
+        color: #FFF;
+        cursor: pointer;
+        display: block;
+        font-family: "Roboto-regular";
+        font-size: 12px;
+        padding:7px 20px;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        color: #e2231a;
+    }
+
+    #menu li a.active {
+       color: #e2231a;
+    }
+
+#principal{
+
+    background-color: #e2e3e4;
+    height:40px;
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#contenidoPrincipal{
+    text-align:center;
+ margin-top:100px;
+}
+
+
+#tituloPrincipal {
+    font-family:'Roboto-Bold'!important;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+#contenidoPrincipal span.titulo1{
+    color:#1A417C;
+    font-family:'Roboto-regular';
+    font-size:33px;  
+    display:block;
+}
+
+#contenidoPrincipal span.titulo2{
+    color:#1A417C;
+    font-family:'Roboto-regular';
+    font-size:24px;  
+    display:block;
+}
+
+#contenidoPrincipal span.titulo3{
+    color: #e2231a;
+    font-family:'Roboto-regular';
+    font-size:30px;  
+    display:block;
+}
+
+#principal img{
+    margin-bottom: -20px;
+    margin-top: 50px;
+}
+
+#contenido {
+    background-color: white;
+    min-height: 960px;
+    margin-left: 186px;
+    overflow: auto;
+    width: 1145px;
+    padding-bottom:20px;
+    /*margin-top:60px;*/
+}
+
+#contenedorTitulo {
+    border-bottom: 1px solid #1A417C;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+#tituloPrincipal {
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+    color: #1A417C;
+}
+.tituloPrincipal {
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+    color: #1A417C;
+}
+
+.tituloSecundario {
+/* padding-top: 20px; */
+    margin-bottom: 25px;
+    padding-left: 10Px;
+    border-left: 2px solid #e40707 ;
+}
+
+.tituloSec {
+    font-family: 'Roboto-bold';
+    color: #1A417C;
+    font-size: 14px;
+}
+
+.ui-datepicker-trigger {
+    margin-left: 5px;
+    cursor: pointer;
+}
+

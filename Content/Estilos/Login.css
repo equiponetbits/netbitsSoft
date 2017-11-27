@@ -1,0 +1,29 @@
+﻿.contenedorLogin {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    height: 931px;
+    background-image: url('../Slices/fondo_inicio.png');
+}
+
+
+
+
+.logoLogin{
+    display: inline-block;
+    margin-left: 22%;
+    margin-top: 450px;
+    margin-right:21%;
+}
+
+.datosLogin{
+   display: inline-block;
+    padding: 0px 70px ;
+}
+
+.labelErrorLogin{
+    color:#3685C2;
+    font-family:'Roboto-regular';
+    font-size:12px;  
+}

@@ -1,0 +1,780 @@
+﻿body {
+    margin: 0;
+    background-color: #BFC3C6;
+}
+
+table td {
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: pre-wrap; /* css-3 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    white-space: normal;
+}
+
+img {
+    border: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+table tr td {
+    padding: 0;
+}
+
+.contenido_Seccion {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none !important;
+    }
+/*LABELS*/
+.divLabelAzul {
+    color: #1A417C;
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+    border-bottom: 1px solid #1A417C;
+}
+
+.labelAzul {
+    color: #1A417C;
+    font-family: 'Roboto-regular';
+    font-size: 13px;
+}
+
+.labelCeleste {
+    color: #358bce;
+    font-family: 'Roboto-regular';
+    font-size: 12px;
+}
+
+.labelPlomo {
+    color: #5B6165;
+    font-family: 'Roboto-regular';
+    font-size: 12px;
+}
+
+.labelBlanco {
+    color: #FFF;
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+}
+/*TEXTBOXS*/
+.textbox {
+    background-color: #FFF;
+    border: 1px solid #e2e3e4;
+    color: #5B6165;
+    height:20px;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    padding: 4px 2px 4px 5px;
+    border-radius: 4px;
+    /*height:30px;*/
+}
+.combotextbox {
+    background-color: #FFF;
+    border: 1px solid #e2e3e4;
+    color: #5B6165;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    padding: 4px 2px 4px 5px;
+    border-radius: 4px;
+    /*height:30px;*/
+}
+
+    .textbox::placeholder {
+        color: #5B6165;
+        opacity: 0.5;
+    }
+
+.textboxDisable {
+    background-color: #F4F2F2;
+    border: 1px solid #e2e3e4;
+    border-radius: 4px;
+    color: #5B6165;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    padding: 4px 2px 4px 5px;
+    /*margin-right: 10px;*/
+}
+
+input.textbox[disabled] {
+    background-color: #F7F7F7;
+    opacity: 0.7;
+}
+
+
+.color {
+    width: 65px;
+}
+/*BOTONES*/
+.button {
+    font-size: 12px;
+    font-family: "Roboto-regular";
+    color: #FFFFFF;
+    background-color: #1A417C;
+    padding: 2px 40px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 27px;
+    border-radius: 6px;
+}
+
+.buttonNuevo {
+    background-color: #ffffff;
+    background-image: url("../Slices/btn_nuevo.png");
+    background-position: right 0 center;
+    background-repeat: no-repeat;
+    border-style: none;
+    color: #1A417C;
+    cursor: pointer;
+    float: right;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 5px 30px 7px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonNuevoDisable {
+    background-color: #ffffff;
+    background-image: url("../Estilos/ICO_Nuevo 2.png");
+    background-position: right 0 center;
+    background-repeat: no-repeat;
+    border-style: none;
+    color: #1A417C;
+    cursor: pointer;
+    float: right;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 3px 25px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnNuevoSinMargin {
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    margin: 0;
+}
+
+.buttonIcono {
+    cursor: pointer;
+}
+
+.button_image {
+    color: #1A417C;
+    font-family: 'Roboto-regular';
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+.divBotones {
+    margin-top: 25px;
+}
+
+    .divBotones input[type=button] {
+        width: 130px;
+        margin-right: 30px;
+    }
+/*TABLAS*/
+.tbGrillas {
+    border: 1px solid #bccade;
+    clear: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+    .tbGrillas table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tbGrillas tr:hover td {
+    }
+
+    .tbGrillas tr:nth-child(odd) {
+        background-color: #EEF1F5;
+    }
+
+    .tbGrillas tr:nth-child(even) {
+        background-color: #FFF;
+    }
+
+    .tbGrillas td {
+        vertical-align: middle;
+        border: 1px solid #A3B3CA;
+        border-width: 0px 1px 1px 0px;
+        text-align: left;
+        padding: 2px 5px 2px 15px;
+        font-size: 12px;
+        font-family: 'Roboto-regular';
+        border-bottom: none;
+        color: #7b7d80;
+        white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        white-space: pre-wrap; /* css-3 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+        white-space: normal;
+    }
+
+        .tbGrillas td.icono {
+            padding: 2px 0;
+        }
+
+            .tbGrillas td.icono img {
+                cursor: pointer;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+    .tbGrillas tr:last-child td {
+        border-width: 0px 1px 0px 0px;
+    }
+
+    .tbGrillas tr td:last-child {
+        border-width: 0px 0px 1px 0px;
+    }
+
+    .tbGrillas tr:last-child td:last-child {
+        border-width: 0px 0px 0px 0px;
+    }
+
+    .tbGrillas tr th {
+        background: -o-linear-gradient(bottom, #93a5c2 5%, #93a5c2 100%);
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #93a5c2), color-stop(1, #93a5c2) );
+        background: -moz-linear-gradient( center top, #93a5c2 5%, #93a5c2 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3685C2", endColorstr="#93a5c2");
+        background: -o-linear-gradient(top,#3685C2,3685C2);
+        background-color: #93a5c2;
+        border: 0px solid #A3B3CA;
+        text-align: center;
+        border-width: 0px 0px 1px 1px;
+        font-size: 12px;
+        font-family: 'Roboto-regular';
+        font-weight: normal;
+        color: #FFF;
+        padding: 2px 0;
+    }
+
+        .tbGrillas tr th:first-child {
+            border-width: 0px 0px 1px 0px;
+        }
+
+        .tbGrillas tr th:last-child {
+            border-width: 0px 0px 1px 1px;
+        }
+
+    .tbGrillas a {
+        border: none;
+    }
+
+    .tbGrillas .imgArriba {
+        background-color: transparent;
+        background-image: url(../Estilos/posicion_subir.png);
+        background-position: right 0 center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        padding: 3px 0px 5px 15px;
+        height: 15px;
+        color: transparent;
+    }
+
+
+
+    .tbGrillas .imgAbajo {
+        background-color: transparent;
+        background-image: url(../Estilos/posicion_bajar.png);
+        background-position: right 0 center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        padding: 3px 0px 5px 15px;
+        height: 15px;
+        color: transparent;
+    }
+
+.tbSubMenu {
+    width: 90% !important;
+    margin: 15px auto !important;
+}
+
+    .tbSubMenu tr th {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #98b4c8 ), color-stop(1, #98b4c8 ) );
+    }
+
+.tbDatos {
+    margin-top: 20px;
+}
+
+    .tbDatos tr td:first-child {
+        padding-right: 10px;
+        vertical-align: top;
+    }
+
+    .tbDatos td {
+        padding-bottom: 10px;
+    }
+
+    .tbDatos img.imagenSola {
+        width: 155px;
+        height: 155px;
+    }
+
+    .tbDatos video.VideoPortada {
+        width: 155px;
+        height: 155px;
+    }
+
+    .tbDatos #playVideo {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        display: none;
+        cursor: pointer;
+    }
+
+    .tbDatos .div-Video {
+        position: relative;
+        max-width: 155px;
+    }
+
+        .tbDatos .div-Video video {
+            width: 100%;
+            height: 155px;
+            display: none;
+            cursor: pointer;
+        }
+
+    .tbDatos #borrarVideo {
+        cursor: pointer;
+        display: none;
+    }
+
+.vertical-top td {
+    vertical-align: top;
+}
+
+.tbDatos img.imagen {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #A3B3CA;
+}
+
+.tbDatos div.eliminar {
+    cursor: pointer;
+    height: 31px;
+    margin-left: 75px;
+    margin-top: -125px;
+    padding: 3px;
+    position: absolute;
+    width: 32px;
+}
+
+.tbContenidos {
+    margin-top: 20px;
+}
+
+    .tbContenidos td {
+        padding: 0 10px 10px 0;
+    }
+
+    .tbContenidos div.imgPrincipal {
+        border: 1px solid #a3b3ca;
+        width: 164px;
+        height: 164px;
+        background-repeat: no-repeat;
+        background-position: 50% center;
+        cursor: pointer;
+    }
+
+    .tbContenidos div.sombra {
+        height: 30px;
+        text-align: center;
+        color: #FFF;
+        font-family: 'Roboto-regular';
+        font-size: 12px;
+        /*margin-top: 127px;*/
+        margin-top: 126px;
+        padding-top: 8px;
+    }
+
+    .tbContenidos div.eliminar {
+        width: 32px;
+        height: 31px;
+        float: right;
+        padding: 3px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .tbContenidos img.seccion {
+        width: 100%;
+        height: auto;
+        /*max-width:190px;
+       max-height:120px;*/
+        cursor: pointer;
+        border: 1px solid #A5ABB6;
+    }
+
+#IndexContenido .tbContenidos div.sombra {
+    height: 50px;
+    margin-top: 107px;
+}
+
+    #IndexContenido .tbContenidos div.sombra > div {
+        height: 34px;
+    }
+/*.tbContenidos img.seccion:focus,.tbContenidos img.seccion:active {
+        border:1px solid yellow;
+    }*/
+
+
+#dialogoVer .tbRegistroEvento {
+    text-align: left;
+    width: 100%;
+}
+
+/*CHECKBOX*/
+input[type=checkbox].css-checkbox {
+    display: none;
+}
+
+    input[type=checkbox].css-checkbox + label.css-label,
+    input[type=checkbox].css-checkbox + input + label.css-label {
+        padding-left: 30px;
+        height: 25px;
+        display: inline-block;
+        line-height: 25px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        vertical-align: middle;
+        cursor: pointer;
+        font-size: 13px;
+        font-family: 'Roboto-regular';
+        color: #5B6165;
+        font-weight: inherit;
+    }
+
+    input[type=checkbox].css-checkbox:checked + label.css-label,
+    input[type=checkbox].css-checkbox:checked + input + label.css-label {
+        background-position: 0 -25px;
+    }
+
+label.css-label {
+    background-image: url("../Slices/tiquear.png");
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+label.css-label-disabled {
+    background-image: url("../Slices/tiquear3.png") !important;
+    background-position: 0 0 !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*RADIOBUTTON*/
+input[type=radio].css-radio {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+        .css-label-radio {
+        padding-left: 30px;
+        padding-right: 25px;
+        height: 25px;
+        display: inline-block;
+        line-height: 23px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        vertical-align: middle;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: 'Roboto-regular';
+        color: #5B6165;
+        font-weight: inherit;
+         background-image: url('../Slices/radio3.png');
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+
+
+    input[type=radio].css-radio:checked + label {
+        
+          background-image: url('../Slices/radio.png');
+    }
+
+    input[type=radio].css-radio {
+    display: none;
+}
+
+
+/*ARBOL*/
+.arbolContenedor {
+    height: auto;
+    padding: 15px 5px;
+    border: 1px solid #a3b3ca;
+    width: 390px;
+    margin-bottom: 25px;
+    overflow-y: scroll;
+}
+
+.arbolSoloLectura ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    color: #5B6165;
+    font-family: 'Roboto-regular';
+    font-size: 12px;
+}
+
+.arbolSoloLectura table td {
+    padding: 0;
+}
+
+.arbolSoloLectura ul li ul {
+    padding-left: 25px;
+}
+/*COMBOS EN DATEPICKER*/
+div.ui-datepicker .chosen-container-single .chosen-single {
+    padding: 0 0 0 5px;
+}
+
+div.ui-datepicker .chosen-container {
+    float: left;
+    margin-left: 6px;
+}
+
+/**div */
+
+
+.numero {
+    padding-top: 8px;
+    width: 35px;
+    height: 42px;
+    background: url(POP_FondoSeccionNumero.png) no-repeat;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto-regular';
+    /*display: table-cell;*/
+    text-align: center;
+    vertical-align: middle;
+    /*padding-right: 8px;
+    background-size: 53px auto !important;*/
+}
+
+/* me*/
+/*DIALOGO*/
+.dialogo {
+    text-align: center;
+    border: 1px solid rgb(163, 179, 202);
+    display: none;
+}
+
+/*________ color picker ______________*/
+
+
+.evo-pop.ui-widget.ui-widget-content {
+    border: 1px solid #cccccc;
+    background: #eee;
+}
+
+.ui-widget-content {
+    font-family: 'Roboto-regular';
+}
+
+.evo-colorind {
+    margin-top: 3px;
+}
+
+/*Secciones*/
+#ContenedorVistaPrevia {
+    margin: 0px 0px 20px;
+    border: 1px solid #A3B3CA;
+    /*max-height:400px;*/
+}
+
+.noActivo {
+    background: none !important;
+    cursor: default;
+    border: none !important;
+    color: #91a4c0;
+}
+/*Correo*/
+.contenido_HtmlMail {
+    padding: 20px;
+}
+
+    .contenido_HtmlMail .tbDatos {
+        margin-top: 0;
+    }
+
+        .contenido_HtmlMail .tbDatos img.imagenSola {
+            width: 200px;
+        }
+
+.formatoMini {
+    float: right;
+}
+
+    .formatoMini img {
+        float: right;
+        position: absolute;
+        margin-left: -65px;
+        cursor: pointer;
+        width: 74px;
+        height: 80px;
+    }
+
+        .formatoMini img:hover {
+            -webkit-transform: scale(3);
+            transform: scale(3);
+            cursor: pointer;
+        }
+
+
+.correo {
+    cursor: pointer;
+}
+
+#Modelo .tbContenidos td div {
+    text-align: center;
+}
+
+
+
+/*titulo*/
+.div-titulo {
+    color: #1d4189;
+    font-family: "Roboto-Bold";
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    /*font-weight: bold;*/
+    width: 100%;
+    text-align: center;
+}
+
+.Linea {
+    width: 40px;
+    background: #e2231a;
+    height: 3px;
+    position: relative;
+    top: 9px;
+    margin: 0 auto;
+}
+
+/*Subtitulo*/
+.LabelSubtitulo {
+    color: #e2231a;
+    font-family: "Roboto-Bold";
+    font-size: 13px;
+}
+
+.LabelContraseña {
+    color: #e2231a;
+    font-family: "Roboto-regular";
+    font-size: 13px;
+}
+
+
+
+#dialogoContrasena {
+    text-align: -webkit-center !important;
+    text-align: -moz-center !important;
+}
+
+.DropdownFiltro {
+    border: 1px solid #e2e3e4;
+    color: #5B6165;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+
+
+.imgIconoVolverGuardar {
+    cursor: pointer;
+    display: none;
+    margin-right: 5px;
+}
+
+
+/*** JsTree */
+.jstree-default .jstree-anchor {
+    font-family: 'Roboto-regular' !important;
+    line-height: 24px !important;
+    height: 24px !important;
+}
+
+.jstree-default .jstree-checkbox {
+    background-size: 24px 24px !important;
+}
+
+.jstree-default .jstree-icon {
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+}
+
+
+/****/
+.divContenedor{
+    background-color: #FFF;
+    border: 1px solid #e2e3e4;
+    color: #5B6165;
+    font-family: "Roboto-regular";
+    font-size: 12px;
+    padding: 15px 2px 15px 15px;
+    border-radius: 4px;
+}
